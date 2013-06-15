@@ -1,8 +1,7 @@
 
 $projectName = "DryRun"
 $projectSource = "$pwd\content\"
-$projectDestination = "C:\inetpub\wwwroot\$projectName\"
-
+$projectDestination = "C:\Web\$projectName-$OctopusEnvironmentName\"
 Write-Host "Deploying to $projectDestination"
 
 Write-Host "Make $projectDestination writable"
