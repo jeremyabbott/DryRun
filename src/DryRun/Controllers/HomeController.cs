@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -10,6 +11,7 @@ namespace DryRun.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Title = ConfigurationManager.AppSettings["WebTitle"];
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
             return View();
