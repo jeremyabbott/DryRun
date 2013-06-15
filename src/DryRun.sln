@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DryRun", "DryRun\DryRun.csproj", "{0EAD5215-BB1A-42AD-AC45-07859369B768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DryRun.Tests", "DryRun.Tests\DryRun.Tests.csproj", "{42DD6416-CC39-4F30-B48C-D586C3F7C51F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{703C22F1-3F16-40C2-9689-B7FA2589ECED}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EAD5215-BB1A-42AD-AC45-07859369B768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EAD5215-BB1A-42AD-AC45-07859369B768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EAD5215-BB1A-42AD-AC45-07859369B768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EAD5215-BB1A-42AD-AC45-07859369B768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DD6416-CC39-4F30-B48C-D586C3F7C51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DD6416-CC39-4F30-B48C-D586C3F7C51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DD6416-CC39-4F30-B48C-D586C3F7C51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DD6416-CC39-4F30-B48C-D586C3F7C51F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
